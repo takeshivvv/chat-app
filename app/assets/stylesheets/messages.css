@@ -7,7 +7,7 @@
   height: 100vh;
 }
 
-.side-header{
+.side-bar-header {
   height: 100px;
   padding: 0 20px;
   background-color: #253141;
@@ -33,8 +33,7 @@
   text-decoration: none;
 }
 
-
-.rooms{
+.rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
@@ -50,13 +49,11 @@
   color: white;
 }
 
-
 .chat {
   background-color: #ffffff;
   width: calc(100% - 300px);
 }
-
-.chat-header{
+.chat-header {
   height: 100px;
   padding: 0 40px;
   display: flex;
@@ -80,9 +77,9 @@
   padding: 20px;
 }
 
-.chat-box{
-  background-color: #fafafa;
-  height: calc(100vh - 190px);
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: scroll;
 }
@@ -116,8 +113,8 @@
   margin-bottom: 40px;
 }
 
-.chat-bottom{
-  background-color: #dddddd;
+.form {
+  background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
   display: flex;
